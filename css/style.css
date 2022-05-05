@@ -20,7 +20,6 @@ margin: 0 auto;
 h1{
     text-align: center;
     color: red;
-    background:yellow;
     line-height: 100px;
   
 }
@@ -30,7 +29,6 @@ h1{
     margin:auto 0;
     text-align: center;
     color: black;
-    background:rgb(106, 255, 255);
     width: fit-content;
     margin-bottom: 20px;  
 }
@@ -43,11 +41,11 @@ h1{
 
 .columns{
     border: 2px solid blue;
-   
+    width: calc(100% / 3)
 }
 
 .card{
-    width: calc(100% / 3)
+   
 }
 
 .img-card{
