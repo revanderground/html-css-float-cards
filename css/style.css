@@ -39,8 +39,8 @@ h1{
     clear: both;
 }
 
-.columns{
-    border: 2px solid blue;
+.column{
+    border: 1px solid blue;
     width: calc(100% / 3)
 }
 
@@ -56,6 +56,8 @@ h1{
 
 .name{font-size: 20px;    
 }
+
+
 
 .fleft{
     float: left;
